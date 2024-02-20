@@ -16,7 +16,7 @@ interface CharacterCardProps {
 
 export function CharacterCard(props : CharacterCardProps){
     return(
-            <div className={styles.container}>
+            <div className={styles.container} key={props.id}>
                 <Image
                 src={props.image}
                 alt={props.name}

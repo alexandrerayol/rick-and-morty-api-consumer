@@ -28,6 +28,7 @@ export async function CharactersList(){
             {
                 charactersList.map( character => (
                         <CharacterCard
+                        key={character.id}
                         id={character.id}
                         name={character.name}
                         image={character.image}
