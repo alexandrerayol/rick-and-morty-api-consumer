@@ -1,0 +1,32 @@
+.container{
+    margin: 2rem auto 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    a{
+        display: block;
+        width: 42px;
+        height: 42px;
+        border: 2px solid rgb(107, 107, 107);
+        border-radius: .5rem;
+        font-weight: 700;
+        background-color: rgb(182, 182, 182);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: filter .2s;
+    }
+
+    a:hover{
+        background-color: #5B5B5B;
+        color: white;
+        border: none;
+    }
+}
+
+a.activeLink{
+    background-color: #5B5B5B;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-radius: .5rem;
+    background-image: linear-gradient(to bottom,hsla(102, 86%, 54%, 0.4),hsla(92, 90%, 57%, 0.4),rgba(75, 228, 28, 0.4),rgba(55, 151, 28, 0.4));
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.5));
+}
